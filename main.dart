@@ -1,38 +1,100 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("Enter Your Name :");
-  var name = stdin.readLineSync();
-  stdout.write("Enter Your Roll No :");
-  int rnum = int.parse(stdin.readLineSync()!);
-  stdout.write("Enter Your Trade :");
-  var trade = stdin.readLineSync();
-  stdout.write("Enter Your Subject1 Marks:");
-  int s1 = int.parse(stdin.readLineSync()!);
-  stdout.write("Enter Your Subject2 Marks:");
-  int s2 = int.parse(stdin.readLineSync()!);
-  stdout.write("Enter Your Subject3 Marks:");
-  int s3 = int.parse(stdin.readLineSync()!);
-  int total = s1 + s2 + s3;
-  double per = total / 300 * 100;
+  // String a="Zebtech";
+  // var b=a.substring(6);
+  // print(b);
+  // var f=a.substring(0,1).toUpperCase()+a.substring(1).toLowerCase();
+  // print(f);
+  // String a="Anus Khan";
+  // var name=a.split(" ");
+  // print(name);
+  // var firstname= name[0];
+  // var lastname= name[1];
+  // print("firstname");
+  // print("lastname");
   
-  if (s1 == 100 && s2 == 100 && s3 == 100) {
-    print("Your Total Marks: ${total}\nYour Percentage is: ${per}");
-    if (per >= 80) {
-      print("A Grade");
-    } else if (per >= 70 && per < 80) {
-      print("B Grade");
-    } else if (per >= 60 && per < 70) {
-      print("C Grade");
-    } else if (per >= 50 && per < 60) {
-      print("D Grade");
-    } else {
-      print("Fail");
-    }
-  }
-    else {
-    print("Number should be less than or equal to 100");
-  }
+  // String a="SMIT HYDERBAD";
+  // // a=a.replaceAll("HYDERBAD", "HYDERABAD");
+  // // print(a);
+  // a=a.replaceFirst("D", "E");
+  // print(a);
+
+//   String b="Anus";
+//   var c="Asad";
+// if(b.startsWith("A")==true);{
+//     print(b);
+//     print("Get Salary");
+//     print(a.endsWith("D"));
+//   }  // print(a.contains("H"));
+  // print(b.toLowerCase().contains("e"));
+  // print(c.toUpperCase().contains("A"));
+  // print(a.startsWith("A"));
+  
+  // String a ="SMIT Zebtech";
+  // if(a.codeUnitAt(0)>=65 && a.codeUnitAt(0)<=90 && a.codeUnitAt(1)>=65 && a.codeUnitAt(1)<=90){
+  //   print("Capital Letter");
+  // }else{
+  //   print("plz enter must capital index at 0 or 1");
+  // }
+  // print(a.codeUnits);
+  // print(a.codeUnitAt(5));
+  // String b="abcdefg6/";
+  // print(b.codeUnits);
+  // print(a.length);
+  // print(a.indexOf("B"));
+  // print(a.lastIndexOf("E"));
+  // print(a.indexOf("Z",6));
+  // print(a.toLowerCase());
+  // print(a.toUpperCase());
+  // print(a[0]);
+  // var a=Random().nextBool();
+  // var a1=Random().nextDouble();
+  // print(a);
+  // print(a1);
+  // var a=1;
+  // if(a%2 ==0);
+  // print(a%2);
+  // var a=10;
+  // var b=5;
+  // var c=--a - --b + ++b + b--;
+  // print(c);
+  // var f=a++ + ++a + a-- - b++ + a + a++;
+  // print(f)
+  // var a =Random().nextInt(20);
+  // print(a);
+// stdout.write("Enter Your Name :");
+  // var name = stdin.readLineSync();
+  // stdout.write("Enter Your Roll No :");
+  // int rnum = int.parse(stdin.readLineSync()!);
+  // stdout.write("Enter Your Trade :");
+  // var trade = stdin.readLineSync();
+  // stdout.write("Enter Your Subject1 Marks:");
+  // int s1 = int.parse(stdin.readLineSync()!);
+  // stdout.write("Enter Your Subject2 Marks:");
+  // int s2 = int.parse(stdin.readLineSync()!);
+  // stdout.write("Enter Your Subject3 Marks:");
+  // int s3 = int.parse(stdin.readLineSync()!);
+  // int total = s1 + s2 + s3;
+  // double per = total / 300 * 100;
+  
+  // if (s1 == 100 && s2 == 100 && s3 == 100) {
+  //   print("Your Total Marks: ${total}\nYour Percentage is: ${per}");
+  //   if (per >= 80) {
+  //     print("A Grade");
+  //   } else if (per >= 70 && per < 80) {
+  //     print("B Grade");
+  //   } else if (per >= 60 && per < 70) {
+  //     print("C Grade");
+  //   } else if (per >= 50 && per < 60) {
+  //     print("D Grade");
+  //   } else {
+  //     print("Fail");
+  //   }
+  // }
+  //   else {
+  //   print("Number should be less than or equal to 100");
+  // }
 
    
 
