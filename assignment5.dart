@@ -56,13 +56,48 @@ void main(){
 
 print("Task 08 Progarm Color List:\n");
 List color=["green","yellow","red","blue","purple","orange","white","black"];
+// print(color);
+// stdout.write("What you want to add color: ");
+// var add=stdin.readLineSync()!;
+// color.insert(0, [add]);
+// print("\n");
+// print(color);
+// stdout.write("What do you want add color to the end: ");
+// var add1=stdin.readLineSync()!;
+// color.add(add1);
+// print("\n");
+// print(color);
+// stdout.write("What do you want add color to the begining: ");
+// var add2=stdin.readLineSync()!;
+// color.insert(0, [add2]);
+// print("\n");
+// print(color);
+// stdout.write("Delete first started color: ");
+// var add3=stdin.readLineSync()!;
+// print("${color.remove(add3).toString()}");
+// print("\n");
+// print(color);
+// stdout.write("Delete last end color: ");
+// var delt=stdin.readLineSync()!;
+//  print("${color.removeLast()}");
+//  print("\n");
+//  print(color);
+
+stdout.write("Enter the index number: ");
+int ind=int.parse(stdin.readLineSync()!);
+stdout.write("Enter want to add color: ");
+var add4=stdin.readLineSync()!;
+if(color.length>=ind){
+  color.insertAll(ind, ["${add4}"]);
 print(color);
-stdout.write("What you want to add color:");
-String add=stdin.readLineSync()!;
-if(add==color){
-  color.add("red");
-  
+}else{
+  print("please enter something...");
 }
+
+
+
+
+
 
 // print("Task 09 Progarm Initialize Cities Name List:\n");
 
@@ -73,7 +108,4 @@ if(add==color){
   
 // print("Task 10 Progarm Initialize Cities Name List:\n");
 
-
-
 }
-  
