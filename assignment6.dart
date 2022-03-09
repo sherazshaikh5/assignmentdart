@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  // print("Q: 01 \n");
+   // print("Q: 01 \n");
   // // var r=1;
   // for(var i=0; i<100; i+5){
   //     i=i+5;
@@ -64,26 +64,18 @@ void main(){
 // }print("\n");
 
 
-List sweet=["ice cake","apple pie","cookies","peanapple cake","chocolates"];
+List lis=["cake", "apple pie", "cookie", "patties"];
 stdout.write("Enter sweet name: ");
-String inp=stdin.readLineSync()!;
-for(var i=0; i<sweet.length; i){
-  if(sweet[i]==inp){
-    print("This sweet is available, ${sweet[i]}");
+var inp=stdin.readLineSync();
+for(var a=0; a<lis.length;a++){
+  if(lis[a]==inp){
+    print("Available this item.");
   }
-  else if(sweet[i]!=inp){
-      print("is not available sweet.");
-    }
-    else{
-      print("is not available sweet.");
-    }
-  // else if(sweet.length!=inp){
-  // //   a_in="is not available";
-  //   print("not found this sweet.");
-  // }
-  // else{
-  //   print("is not available sweet.");
-  // }
+ else if(lis[a]==inp){
+   print("not find this item,");
+ } 
+ else{
+   print("not available this item.");
+ }
 }
-
 }
